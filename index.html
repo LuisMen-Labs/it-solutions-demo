@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Solutions - Consultora Tecnológica</title>
+    <meta name="description"
+        content="Consultora de tecnología experta en soluciones digitales, desarrollo web y transformación digital.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">IT Solutions<span class="dot">.</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                    <li><a href="#contacto" class="nav-link btn-featured">Contacto</a></li>
+                </ul>
+                <button class="mobile-toggle" aria-label="Abrir menú">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container hero-content">
+                <h1 class="hero-title">Soluciones IT de <br><span class="highlight">Otro Nivel</span></h1>
+                <p class="hero-text">Transformamos ideas complejas en soluciones tecnológicas elegantes y eficientes.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn btn-primary">Empezar Proyecto</a>
+                    <a href="#servicios" class="btn btn-secondary">Ver Servicios</a>
+                </div>
+            </div>
+            <div class="hero-background"></div>
+        </section>
+
+        <section id="servicios" class="section services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nuestras Soluciones</h2>
+                    <p class="section-subtitle">Servicios diseñados para escalar y optimizar tu empresa</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">⚡</div>
+                        <h3>Desarrollo Web</h3>
+                        <p>Sitios y aplicaciones web de alto rendimiento con las últimas tecnologías.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🛡️</div>
+                        <h3>Ciberseguridad</h3>
+                        <p>Protección integral para tus datos y sistemas críticos.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">☁️</div>
+                        <h3>Cloud Computing</h3>
+                        <p>Migración y gestión de infraestructuras en la nube escalables.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🤖</div>
+                        <h3>IA & Automatización</h3>
+                        <p>Optimización de procesos mediante inteligencia artificial.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="nosotros" class="section about">
+            <div class="container about-container">
+                <div class="about-content">
+                    <h2 class="section-title">Sobre IT Solutions</h2>
+                    <p>Somos un equipo de expertos apasionados por la tecnología y la innovación. Con más de 10 años de
+                        experiencia, ayudamos a empresas de todos los tamaños a navegar la transformación digital.</p>
+                    <ul class="stats-list">
+                        <li>
+                            <span class="stat-number">200+</span>
+                            <span class="stat-label">Proyectos</span>
+                        </li>
+                        <li>
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Expertos</span>
+                        </li>
+                        <li>
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Satisfacción</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <!-- Placeholder visual using CSS -->
+                    <div class="abstract-shape"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section contact">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2 class="section-title">Hablemos</h2>
+                        <p>¿Listo para transformar tu negocio? Contáctanos hoy.</p>
+                        <ul class="contact-details">
+                            <li>📧 contacto@itsolutions.com</li>
+                            <li>📍 Ciudad de México, México</li>
+                            <li>📱 +52 55 1234 5678</li>
+                        </ul>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2024 IT Solutions. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn">LN</a>
+                <a href="#" aria-label="Twitter">TW</a>
+                <a href="#" aria-label="Instagram">IG</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
